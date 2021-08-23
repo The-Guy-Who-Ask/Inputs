@@ -1,0 +1,79 @@
+body{
+    background: #000;
+    color: white;
+}
+input:focus{
+    border: 2px rgb(53, 53, 253) solid;
+    outline: none;
+    color: rgb(53, 53, 253);
+}
+input{
+    border: 1px solid gray;
+    border-radius: 0.5em;
+    font-size: 1em;
+    /* text-align: justify; */
+    width: 20em;
+    height: 3em;
+    background: #000;
+    color: white;
+    margin-top: 1em;
+    /* padding-top: 1em; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 55vh;
+    text-align: center;
+    margin-left: 27em;
+}
+i{
+    font-size: 48px;
+    text-align: left;
+    margin-left: 0.5em;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+input#blur{
+    background: rgb(53, 53, 253);
+    color: white;
+    height: 2em;
+    margin-top: 1em;
+    border: 1px solid black;
+    width: 15em;
+    height: 3em;
+    border-radius: 2em;
+}
+h1{
+    font-size: 3em;
+    margin: 0.5em 0;
+}
+.blow, .blew{
+    position: relative;
+}
+span{
+    top: 44%;
+    left: 7%;
+    font-size: 1.3em;
+    opacity: 0.5;
+    transition: all 0.5s;
+    z-index: -0.5;
+}
+input:focus ~ span{
+    color: rgb(53, 53, 253);
+    font-size: 1em;
+    top: 22%;
+    transition: all 0.5s;
+    left: 7%;
+}
+a{
+    font-size: 0.7em;
+}
+input:visited ~ span{
+    top: 22%;
+    left: 7%;
+}
+input:hover ~ span{
+    z-index:-1;
+    color: white;
+}

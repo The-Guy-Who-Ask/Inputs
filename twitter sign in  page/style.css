@@ -1,0 +1,99 @@
+.img-container{
+    background-image: url(logo.jpg);
+    background-size: cover;
+    /* height: 60%;
+    width: 30%; */
+}
+body{
+    background: #000;
+    color: white;
+    display: inline-block;
+    margin: 0;
+    /* position: relative; */
+}
+.biggercontainer{
+    display: flex;
+    /* width: 100vw; */
+}
+i.fab.fa-twitter{
+    font-size: 49px;
+    margin-left: 13em;
+    margin-top: 0em;
+}
+h1{
+    font-size: 3em;
+    margin-bottom: 0%;
+    margin-top: 15%;
+    /* margin-left: 5%; */
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 35vw;
+    margin-left: 2em;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    cursor: pointer;
+}
+h3{
+    font-size:2em;
+}
+i.fab{
+    font-size: 1.5em;    
+    margin-top: 0;
+    margin-left: 1.5em;
+    position: absolute;
+    left: 0;
+    top: 9px;
+    /* margin-right: 2em; */
+}
+li{
+    background: whitesmoke;
+    color: black;
+    border-radius: 2em;
+    margin: 0.5em 0;
+    padding: 0;
+    margin-top: 0.5;
+    text-align: left;
+    list-style-type: none;
+    height: 25%;
+    width: 93%;
+    text-align: center;
+    position: relative;
+    font-size: 1.5em;
+}
+ul{
+    height: 35%;
+    padding: 0;
+    margin: 0;
+}
+span{
+    position: absolute;
+    left: 27%;
+    top: 16%;
+    font-size: 1em;
+}
+span.blew{
+    position: absolute;
+    left: 15%;
+    top: 16%;
+    font-size: 1em;
+}
+p{
+    opacity: 0.5;
+    font-size: 0.8em;
+}
+nav li{
+    display: inline;
+    background: #000;
+    opacity: 0.3;
+    color: blanchedalmond;
+    padding-left: 0.3%;
+    font-size: 0.7em;
+}
+nav{
+    position: absolute;
+    bottom: 5%;
+    width: 100%;
+}

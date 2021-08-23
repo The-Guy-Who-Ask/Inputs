@@ -1,0 +1,98 @@
+h1, p{
+    margin: 0em 1em;
+    text-align: left;
+}
+input{
+    height: 2em;
+    margin: 0.2em 0;
+    border: 1px solid rgb(51, 48, 48);
+    border-radius: 6px;
+    font-size: 1em;
+    background: azure;
+    transition: 0.5s;
+}
+input#email, input#password{
+    width: 97%;
+
+}
+input#male, input#female, input#others, select#bloom, select#broom, select#zoom{
+    display: inline-block;
+    font-size: 13px;
+
+}
+br{
+    margin: 0;
+    font-size: 1px;
+}
+span{
+    font-size: 14px;
+    left: 0;
+    margin: 0%;
+    padding: 0;
+    float: left;
+}
+input#block{
+    width: 40%;
+    background: rgb(0, 67, 0);
+    color: white;
+    filter: drop-shadow(2px 2px 2px black);
+    animation-name: blame;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    font-size: 1.5em;
+    height: 50%;
+}
+*{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    width: 40vw;
+    margin: 0%;
+    transform: translate(70%, 25%);
+    background: rgb(255, 255, 255);
+    border: 2px solid black;
+    /* filter: drop-shadow(1px 1px 1px black); */
+}
+@keyframes blame {
+    from{
+        width: 5%;
+    }
+    to{
+        width: 40%;
+    }
+}
+body{
+    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzwQvbB0D9zafK6wdoHOpk3utUsjeVfEQBVQ&usqp=CAU);
+    backdrop-filter: blur(1em);
+    height: 100vh;
+    background-repeat: no-repeat;
+    margin: 0;
+    background-size: cover;
+    background-position: absolute;
+
+}
+.zab, .blate{
+    text-align: left;
+    font-size: 1.3em;
+}
+.zab{
+    display: inline;
+    float: left;
+}
+.male, .female, .others{
+    display: inline;
+    border: 1px solid gray;
+    padding: 0.2em;
+    border-radius: 0.2em;
+}
+form{
+    /* filter: drop-shadow(1em 1em 1em black); */
+    box-shadow: 0.5em 0.5em 1em black,
+                -0.2em -0.2em 1em black;
+}
+/* .container{
+    filter: drop-shadow(0.1em 0.1em 0.2em black);
+} */
