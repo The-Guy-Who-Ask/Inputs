@@ -1,5 +1,5 @@
 .img-container{
-    background-image: url(logo.jpg);
+    background-image: url(../img/logo.jpg);
     background-size: cover;
     /* height: 60%;
     width: 30%; */

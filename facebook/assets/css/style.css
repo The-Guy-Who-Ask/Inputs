@@ -65,7 +65,7 @@ form{
     }
 }
 body{
-    background:url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTzwQvbB0D9zafK6wdoHOpk3utUsjeVfEQBVQ&usqp=CAU);
+    background-image: url(file:///D:/Study%20Material/Computer%20Classes/Inout%20practice/facebook/assets/img/logo.jpeg);
     backdrop-filter: blur(1em);
     height: 100vh;
     background-repeat: no-repeat;
